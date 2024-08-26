@@ -1,0 +1,13 @@
+<odoo>
+<record id="view_employee_form_custom" model="ir.ui.view">
+    <field name="name">hr.employee.form.custom</field>
+    <field name="model">hr.employee</field>
+    <field name="inherit_id" ref="hr.view_employee_form"/>
+    <field name="arch" type="xml">
+        <form string="Employee" js_class="hr_employee_form" class="o_employee_form">
+            <field name="custom_field"/>
+            <!-- Other fields and code -->
+        </form>
+    </field>
+</record>
+</odoo>

@@ -1,0 +1,10 @@
+<odoo>
+    <data noupdate="1">
+        <!-- Define a new Apps Category -->
+        <record id="module_category_custom_apps" model="ir.module.category">
+            <field name="name">Custom Apps</field>
+            <field name="description">This category contains custom apps developed by our company.</field>
+            <field name="sequence">10</field>
+        </record>
+    </data>
+</odoo>
